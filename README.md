@@ -14,6 +14,7 @@ Allows mouse drag event binding on elements.
 
 <details>
 <summary>Code</summary>
+
 ```javascript
 (function($) {
 
@@ -52,7 +53,9 @@ Allows mouse drag event binding on elements.
   }
 })(window.jQuery);
 ```
+
 </details>
+&nbsp;
 
 **Usage**
 
@@ -89,6 +92,7 @@ A small wrapper for `FileReader` that makes using local images easier for front 
 
 <details>
 <summary>Code</summary>
+
 ```javascript
 $.fn.uploader = function() {
   this.on('change', function(evt) {
@@ -107,7 +111,9 @@ $.fn.uploader = function() {
   return this;
 }
 ```
+
 </details>
+&nbsp;
 
 **Usage**
 
